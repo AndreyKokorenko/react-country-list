@@ -1,4 +1,3 @@
-import "./Badge.scss";
 import { ReactNode } from "react";
 import { BadgeLabel } from "../../types/types";
 import { Color } from "../../types/types";

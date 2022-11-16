@@ -1,4 +1,3 @@
-import "./CountryList.scss";
 import { CountryItem } from "../CountryItem/CountryItem";
 import { ICountry } from "../../types/types";
 

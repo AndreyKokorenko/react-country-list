@@ -1,4 +1,3 @@
-import "./CountryItem.scss";
 import { Badge } from "../Badge/Badge";
 import { Color } from "../../types/types";
 import { ICountry } from "../../types/types";

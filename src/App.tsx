@@ -1,4 +1,3 @@
-import "./App.scss";
 import countries from "./country-data.json";
 import { CountryList } from "./components/CountryList/CountryList";
 import { getTransformCountries } from "./mapper/mapper";
