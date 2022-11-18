@@ -1,18 +1,16 @@
-import { ReactNode } from "react";
 import { BadgeLabel } from "../../types/types";
 import { Color } from "../../types/types";
 
 export interface IBadgeProps {
   color: Color;
   badgeLabel: BadgeLabel;
-  children: ReactNode;
+  count: number;
 }
 
-export const Badge = ({ color, badgeLabel, children }: IBadgeProps) => {
+export const Badge = ({ color, badgeLabel, count }: IBadgeProps) => {
   return (
     <span className={`badge text-bg-${color}`}>
-      {badgeLabel}
-      {children}
+      {badgeLabel}: {count}
     </span>
   );
 };

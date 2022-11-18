@@ -12,7 +12,7 @@ export enum Color {
 export type BadgeLabel = "area" | "population";
 
 export interface ICountry {
-  flags: string;
+  flag: string;
   name: string;
   capital: string;
   population: number;
