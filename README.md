@@ -1,1 +1,0 @@
-https://github.com/AndreyKokorenko/react-country-list.git
